@@ -1,118 +1,119 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Flexbox layout demo</title>
-
-    <!-- No Bootstrap! -->
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
-  </head>
-  <body>
-
-    <!-- Navbar -->
-    <div class="navbar-lewagon">
-      <img src="images/logo.png" alt="logo">
-    </div>
-    <!-- Layout -->
-    <div class="content">
-      <!-- Cards -->
-      <div class="cards">
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/rio)">
-          Rio
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/berlin)">
-          Berlin
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/shanghai)">
-          Shanghai
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/barcelona)">
-          Barcelona
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/paris)">
-          Paris
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/london)">
-          London
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/melbourne)">
-          Melbourne
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/marseille)">
-          Marseille
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/buenos-aires)">
-          Buenos Aires
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/bali)">
-          Bali
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/tel-aviv)">
-          Tel Aviv
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/kyoto)">
-          Kyoto
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/copenhagen)">
-          Copenhagen
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/lisbon)">
-          Lisbon
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/montreal)">
-          Montreal
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/nantes)">
-          Nantes
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/milan)">
-          Milan
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/tokyo)">
-          Tokyo
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/amsterdam)">
-          Amsterdam
-        </div>
-
-        <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/lyon)">
-          Lyon
-        </div>
+<head>
+  <meta charset="utf-8">
+  <title>Flexbox layout demo</title>
+  
+  <!-- No Bootstrap! -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <div class="navbar-lewagon">
+    <img src="images/logo.png" alt="logo">
+  </div>
+  <!-- Layout -->
+  <div class="content">
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/rio)">
+        Rio
       </div>
-
-      <!-- Change the token below (https://www.mapbox.com/account/access-tokens/) -->
-      <div id="map">
-        <img src='https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/2.346,48.8595,11.72,0,0/600x1000?access_token=<YOUR_TOKEN>'>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/berlin)">
+        Berlin
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/shanghai)">
+        Shanghai
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/barcelona)">
+        Barcelona
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/paris)">
+        Paris
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/london)">
+        London
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/melbourne)">
+        Melbourne
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/marseille)">
+        Marseille
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/buenos-aires)">
+        Buenos Aires
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/bali)">
+        Bali
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/tel-aviv)">
+        Tel Aviv
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/kyoto)">
+        Kyoto
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/copenhagen)">
+        Copenhagen
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/lisbon)">
+        Lisbon
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/montreal)">
+        Montreal
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/nantes)">
+        Nantes
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/milan)">
+        Milan
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/tokyo)">
+        Tokyo
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/amsterdam)">
+        Amsterdam
+      </div>
+      
+      <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/lyon)">
+        Lyon
+      </div>
+    </div>
+    
+    <!-- Change the token below (https://www.mapbox.com/account/access-tokens/) -->
+    <div id="map">
+      <img src='https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/2.346,48.8595,11.72,0,0/600x1000?access_token=<YOUR_TOKEN>'>
       </div>
     </div>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
     <script>
       mapboxgl.accessToken = '<YOUR_TOKEN>';
-      const map = new mapboxgl.Map({
-      container: 'map', // container ID
-    // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-      style: 'mapbox://styles/mapbox/streets-v12', // style URL
-      center: [-74.5, 40], // starting position [lng, lat]
-      zoom: 9 // starting zoom
-      });
-    </script>
-  </body>
-</html>
+        const map = new mapboxgl.Map({
+          container: 'map', // container ID
+          // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+          style: 'mapbox://styles/mapbox/streets-v12', // style URL
+          center: [-74.5, 40], // starting position [lng, lat]
+          zoom: 9 // starting zoom
+        });
+      </script>
+    </body>
+    </html>
+    
